@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital@1&display=swap');
+
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 200 to 1000 */
+
+.mulish-italic-400 {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.mulish-regular-400 {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+  
+
+:root {
+    --col-background: #333346;
+    --col-center-column: #1a1a24;
+    --col-nav-bar: #535373;
+    --col-text: #e6e6ec;
+    --col-hover: #a6a6bf;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+a {
+    color: var(--col-text);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--col-hover);
+}
+
+p a {
+    color: var(--col-hover);
+    text-decoration: underline;
+}
+
+h1 {
+    color: var(--col-text);
+    text-align: center;
+    font-family: 'Mulish', Arial, sans-serif;
+    font-size: 64px;
+}
+
+h2 {
+    color: var(--col-text);
+    text-align: center;
+    font-family: 'Mulish', Arial, sans-serif;
+    font-size: 36px;
+}
+
+h3 {
+    color: var(--col-text);
+    text-align: left;
+    font-family: 'Mulish', Arial, sans-serif;
+    font-size: 36px;
+}
+
+h4 {
+    color: var(--col-text);
+    text-align: left;
+    font-family: 'Mulish', Arial, sans-serif;
+    font-size: 30px;
+}
+
+p {
+    color: var(--col-text);
+    text-align: left;
+    font-family: 'Mulish', Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+ul {
+    margin-top: -15px;
+    color: var(--col-text);
+    text-align: left;
+    font-family: 'Mulish', Arial, sans-serif;
+    font-size: 24px;
+}
+
+.EmbeddedYouTube {
+    width: 100%;
+    height: 675px;
+    border: none;
+    border-radius: 10px;
+}
+
+.FloatingImg {
+    float: left;
+    width: 30%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.DemoImg {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.ThumbnailImg {
+    width: 100%;
+    border-radius: 10px;
+    /* margin-bottom: 15px; */
+}
+
+.CentralColumn {
+    margin: auto;
+    width: 1500px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    padding-bottom: 40px;
+    background-color: var(--col-center-column);
+}
+
+.CentralColumnContainer {
+    padding-top: 50px;
+    margin: auto;
+    width: 80%;
+}
+
+.ParagraphText {
+    margin: auto;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.HeaderText {
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.NavigationBar {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+    background-color: var(--col-nav-bar);
+    overflow: hidden;
+}
+
+.NavigationBarGrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 0px;
+    overflow: hidden;
+    margin: auto;
+    width: 750px;
+}
+
+.NavigationBar a {
+    /* float: left; */
+    margin: auto;
+    padding: 14px 30px;
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    text-align: center;
+    font-family: 'Mulish', Arial, sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: var(--col-text);
+}
+
+.NavigationBar a:hover {
+    color: var(--col-hover);
+}
+
+.NavigationBar a.active {
+    background-color: var(--col-background);
+    color: var(--col-text);
+}
+
+.BottomBar {
+    margin-top: 300px;
+    background-color: var(--col-center-column);
+    overflow: hidden;
+}
+
+body {
+    background-color: var(--col-background);
+}
+
+hr {
+    width: 70%;
+}
+
+.CardGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 30px;
+    row-gap: 40px;
+}
+
+.ProjectCard {
+    box-sizing: border-box;
+    background-color: var(--col-background);
+    box-shadow: 5px 5px 5px;
+    border-radius: 10px;
+    padding: 24px;
+    padding-top: 0px;
+}
+
+.ProjectCard a:hover h4 {
+    color: var(--col-hover);
+}
+
+.ProjectCard img {
+    border: 3px solid transparent;
+}
+
+.ProjectCard a:hover img {
+    border: 3px solid var(--col-text);
+    border-radius: 5px;
+}
+
+.ProjectCard p a:hover {
+    color: var(--col-text);
+    text-decoration: underline;
+}
