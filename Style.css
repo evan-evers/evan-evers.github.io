@@ -21,11 +21,11 @@
   
 
 :root {
-    --col-background: #333346;
-    --col-center-column: #1a1a24;
-    --col-nav-bar: #535373;
-    --col-text: #e6e6ec;
-    --col-hover: #a6a6bf;
+    --col-background: #3f5c65;
+    --col-center-column: #2b3842;
+    --col-nav-bar: #6c8d76;
+    --col-text: #EFEFEF;   
+    --col-hover: #c7d9e0;
 }
 
 html {
