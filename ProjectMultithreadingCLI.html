@@ -29,11 +29,11 @@
                     <img class="FloatingImg" src="ThumbnailMultithreadedCLI.png" alt="Splash art for the game 'Crate Buster'.">
                 </div>
                 <p>
-                    <i>Link:</i> <a href="https://github.com/evan-evers/MultithreadingProject1">Github Repo</a>
+                    <i>Link:</i> <a href="https://github.com/evan-evers/MultithreadingProject1" target="_blank">Github Repo</a>
                     <br><br>
                     <i>Tools used:</i>
                     <br>
-                    C, SDL, Git + Github, Aseprite, Logic Pro, Visual Studio
+                    C++ with STL, Bash, VSCode
                     <br><br>
                     <i>Project type:</i>
                     <br>
@@ -57,13 +57,12 @@
                 </p>
                 <h4>General-Purpose Text Interpretation</h4>
                 <p>
-                    One of this project's core features is tokenizing and parsing user commands on the command line.
-                    While it wasn't the focus of this project, 
-                    I decided to develop a proper text interpreter for this project that I could reuse for future command-line projects.
+                    One of this project's core features is tokenizing and parsing user text commands. 
+                    For this project, I decided to develop a general-purpose text interpreter that I could reuse for future command-line programs.
                     The interpreter works in 2 stages.
                     First, it breaks commands into tokens.
-                    Second, it analyzes those tokens, and if they're valid, executes the associated command. 
-                    Additional parameters are also passed into the command, if they're expected and valid.
+                    Second, it analyzes those tokens, and if they're valid, the interpreter calls the associated command function. 
+                    Additional parameters will also be passed into the called command function if the parameters are expected and valid.
                 </p>
             </div>
 
