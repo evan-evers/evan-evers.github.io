@@ -32,10 +32,10 @@
                     <i>Link:</i> <a href="https://emanona.itch.io/at-least-im-rich" target="_blank">Main Page</a>
                     <br>
                     <i>Link:</i> <a href="https://itch.io/jam/climate-jam-2024/rate/2838792" target="_blank">Jam Submission Page</a>
-                    <br>
+                    <br><br>
                     <i>Tools used:</i>
                     <br>
-                    C++, Unreal Engine, Blueprints, Git + Github + Github Desktop, Visual Studio
+                    C++, Unreal Engine 5, Blueprints, Git + Github + Github Desktop, Visual Studio
                     <br><br>
                     <i>Project type:</i>
                     <br>
@@ -43,7 +43,7 @@
                     <br><br><br>
                     <i>Project summary:</i>
                     <br>
-                    A turn-based 3D card game made in Unreal Engine for my internship with <a href="https://www.indiecade.com/" target="_blank">IndieCade</a>. 
+                    A turn-based 3D card game made in Unreal Engine 5 for my internship with <a href="https://www.indiecade.com/" target="_blank">IndieCade</a>. 
                     Players compete to gain the most money while trying not to destroy the environment.
                     <br><br>
                     <iframe class="EmbeddedYouTube" src="https://www.youtube.com/embed/uBvKdklnV0Q"></iframe>
@@ -62,12 +62,9 @@
                 <h3>Highlighted contributions:</h3>
                 <h4>Planning and implementing core architecture</h4>
                 <p>I developed the core architecture for this game myself, according to specifications given by
-                    my team's game designers. There are two core elements to the game: the Game Manager and Players. The
-                    Game Manager handles player turn order, game phase, and other various pieces of game state. Player
-                    objects play turns when prompted by the game manager. The core Player class is abstract and is
-                    subclassed into PlayerAI and PlayerHuman to handle differences in functionality. Both the Manager
-                    and Player objects have several Card Collection Components, which are multipurpose components that
-                    can act as decks, hands, and a player's fielded cards.
+                    my team's game designers. This architecture includes functionality for turn order; player phase order; 
+                    decks, hands, and fielded cards; interfaces to allow both human and AI players to draw, play, and field cards;
+                    and win and lose states.
                     <br><br>
                     <img class="DemoImg" src="ALIRGameplay3.gif" alt="Gameplay of At Least I'm Rich.">
                 </p>
@@ -79,7 +76,7 @@
                     <br><br>
                     <img class="DemoImg" src="ALIRGameplay4.gif" alt="Gameplay of At Least I'm Rich.">
                     <br><br>
-                    I developed a prompt system that halts a player's turn when one of their cards requires another card to be selected.
+                    I developed a prompt system that halts gameplay when a player's fielded card requires another card to be selected.
                     <br><br>
                     <img class="DemoImg" src="ALIRGameplay5.gif" alt="Gameplay of At Least I'm Rich.">
                     <br><br>
